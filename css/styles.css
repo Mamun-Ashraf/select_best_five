@@ -1,0 +1,34 @@
+.select-five-style {
+    color: #FF5E19;
+    height: 25rem;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+
+header h1 {
+    font-size: 4.75rem;
+}
+
+main {
+    font-family: 'Manrope', sans-serif;
+}
+
+.players-name {
+    color: #fff;
+    text-align: center;
+    margin: 1rem;
+}
+
+.btn-select {
+    color: #fff;
+    background-color: #015196;
+    padding: 9px 25px;
+    width: 15rem;
+    margin: 1rem;
+}
+
+.footer-style {
+    height: 10rem;
+    color: #fff;
+    border-top: 1px solid black;
+}

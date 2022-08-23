@@ -1,0 +1,12 @@
+addPlayerName('btn-neymar', 'neymar-jr');
+addPlayerName('btn-messi', 'lionel-messi');
+addPlayerName('btn-ronaldo', 'cristiano-ronaldo');
+addPlayerName('btn-dybala', 'paulo-dybala');
+addPlayerName('btn-ozil', 'mesut-ozil');
+addPlayerName('btn-icardi', 'mauro-icardi');
+addPlayerName('btn-di-maria', 'angel-di-maria');
+addPlayerName('btn-mbappe', 'kylian-mbappe');
+addPlayerName('btn-salah', 'mohammad-salah');
+addPlayerName('btn-harry', 'harry-kane');
+addPlayerName('btn-bruyne', 'kevin-de-bruyne');
+addPlayerName('btn-philippe', 'philippe-coutinho');
