@@ -11,7 +11,7 @@ function addPlayerName(btnPlayer, PlayerNameId) {
         }
 
         else {
-            list.innerHTML = 'You cannot select more than five players'
+            alert('You cannot select more than five players');
         }
     })
 }
@@ -21,7 +21,7 @@ function getInputFieldValueById(elementId) {
     const elementString = element.value;
     const elementValue = parseInt(elementString);
     if (isNaN(elementString)) {
-        console.log('Please provide a number type value');
+        alert('Please provide a number type value');
     }
     else {
         return elementValue;
