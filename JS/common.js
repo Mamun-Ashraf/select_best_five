@@ -1,5 +1,9 @@
+//Function of making player list and disabled the 'Select button'
+
 function addPlayerName(btnPlayer, PlayerNameId) {
     document.getElementById(btnPlayer).addEventListener('click', function () {
+        const playerButton = document.getElementById(btnPlayer);
+
         const playerNameElement = document.getElementById(PlayerNameId);
         const playerName = playerNameElement.innerText;
 
@@ -8,6 +12,9 @@ function addPlayerName(btnPlayer, PlayerNameId) {
         li.innerText = playerName;
         if (document.querySelectorAll('#players-list li').length < 5) {
             list.appendChild(li);
+            playerButton.setAttribute('disabled', true);
+            playerButton.style.backgroundColor = 'gray';
+
         }
 
         else {
@@ -15,6 +22,8 @@ function addPlayerName(btnPlayer, PlayerNameId) {
         }
     })
 }
+
+// function of calculate the total expense
 
 function getInputFieldValueById(elementId) {
     const element = document.getElementById(elementId);
