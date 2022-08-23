@@ -28,3 +28,9 @@ function getInputFieldValueById(elementId) {
     }
 }
 
+function getInnerTextById(elementId) {
+    const element = document.getElementById(elementId);
+    const elementString = element.innerText;
+    const elementValue = parseInt(elementString);
+    return elementValue;
+}
