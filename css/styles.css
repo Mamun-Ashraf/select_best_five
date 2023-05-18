@@ -6,17 +6,11 @@
 }
 
 header h1 {
-    font-size: 4.75rem;
+    font-size: 4.5rem;
 }
 
 main {
     font-family: 'Manrope', sans-serif;
-}
-
-.players-name {
-    color: #fff;
-    text-align: center;
-    margin: 1rem;
 }
 
 .btn-select {
