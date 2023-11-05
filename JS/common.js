@@ -29,12 +29,7 @@ function getInputFieldValueById(elementId) {
     const element = document.getElementById(elementId);
     const elementString = element.value;
     const elementValue = parseInt(elementString);
-    if (isNaN(elementString)) {
-        alert('Please provide a number type value');
-    }
-    else {
-        return elementValue;
-    }
+    return elementValue;
 }
 
 function getInnerTextById(elementId) {

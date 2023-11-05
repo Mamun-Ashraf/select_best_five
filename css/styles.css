@@ -13,14 +13,6 @@ main {
     font-family: 'Manrope', sans-serif;
 }
 
-.btn-select {
-    color: #fff;
-    background-color: #015196;
-    padding: 9px 25px;
-    width: 15rem;
-    margin: 1rem;
-}
-
 .footer-style {
     height: 10rem;
     color: #fff;
